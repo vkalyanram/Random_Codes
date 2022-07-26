@@ -8,3 +8,7 @@ def search_dictionaries(key, value, list_of_dictionaries):
 ]
 
 next(filter(lambda obj: obj.get('name') == 'Pam', my_dict), None)
+---------------------------------------------------------------------------------------------------------------
+def call_print():
+	print(json.dumps(List, indent=4))
+
