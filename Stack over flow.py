@@ -46,7 +46,10 @@ dict_vec = {'x': 1, 'y': 0, 'z': 1}
 
 >>> myfunc(**dict_vec)
 1, 0, 1
-
-
-
+--------------------------------------------------------------
+from dateutil import parser
+def convert(date_time):
+		datetime_str = parser.parse(date_time)
+		return datetime_str	
+--------------------------------------------------------------	
 
