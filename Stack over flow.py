@@ -52,4 +52,5 @@ def convert(date_time):
 		datetime_str = parser.parse(date_time)
 		return datetime_str	
 --------------------------------------------------------------	
-
+In short, {foreign_key_name}_id if you want to assign the id directly.
+Django error. Cannot assign must be an instance
