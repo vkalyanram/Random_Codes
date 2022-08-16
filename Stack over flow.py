@@ -54,3 +54,5 @@ def convert(date_time):
 --------------------------------------------------------------	
 In short, {foreign_key_name}_id if you want to assign the id directly.
 Django error. Cannot assign must be an instance
+
+python -m http.server
